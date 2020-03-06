@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Pacifico&display=swap');
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	font-family: sans-serif;	
+	background-image: url('../img/bnn_login1.jpg');
+}
+.formulario{
+	width: 500px;
+	max-width: 100%;
+	margin: auto;
+	margin-top: 100px;
+	padding: 100px;
+	box-shadow: 0 0 20px 1px rgba(0,0,0,.3);
+	position: relative;
+	background-color: #A7A1A0;
+	border-radius: 50px;
+	opacity: .9;
+}
+.formulario__titulo{
+	font-size: 2em;
+	color: #F33A1D;
+	font-family: 'Pacifico', cursive;
+	font-weight: 100;
+	text-align: center;
+	margin-top: 0;
+	padding-bottom: 40px;
+}
+.formulario__input, .formulario__label, .formulario__submit{
+	display: block;
+	width: 100%;
+	font-size: 1.3em;
+}
+.formulario__input:focus{
+	outline: 1px solid rgba(0,0,0,.1);
+}
+.formulario__input:focus + .formulario__label{
+	margin-top: -115px;
+}
+.formulario__input{
+	padding: 10px;
+	background: rgba(0, 0, 0, .1);
+	border: none;
+	border-radius: 50px;
+	margin-bottom: 40px;
+}
+.formulario__label{
+	padding-left: 20px;
+	position: absolute;
+	margin-top: -75px;
+	z-index: -20;
+	color: #F33A1D;
+	transition: all .2s;
+}
+.formulario__submit{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	width: 200px;
+	height: 50px;
+	background: #F33A1D;
+	color: white;
+	margin: 10px auto;
+	color: white;
+	padding: 10px 20px;
+	cursor: pointer;
+	border: none;
+	border-radius: 50px;
+}
+.fijar{
+	margin-top: -115px;
+}
